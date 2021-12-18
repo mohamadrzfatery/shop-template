@@ -1,0 +1,176 @@
+@media only screen and (max-width: 768px) {
+    #mobilesearch{
+        display: block !important;
+    }
+    .pictxt{
+        margin-top: 5% !important;
+    }
+    .end div{
+        text-align: center !important;
+    }
+    #subscribe label{
+        float: right !important;
+    }
+    header .logo-container{
+        font-size: 2rem !important;
+    }
+    #subscribe p{
+        margin-top: 2.5rem !important;
+    }
+    #searchsectionfornotmobile{
+        display: none !important;
+    }
+    header .imagehead img{
+        height: 400px;
+    }
+    #slider div{
+        height: 25rem !important;
+    }
+    #lproject{
+        top: 0!important;
+    }
+     .card .col-lg-6 .col-md-12 .mb-md-5{
+         margin-bottom: 1.5rem;
+     }
+    #masternav .dropdown-menu {
+        margin-right: -2rem;
+        margin-left: 8px;
+    }
+    #mrfdv{
+        margin-top: 5px !important;
+    }
+
+    #masternav a {
+
+        margin-left: 1rem !important;
+    }
+    #drpindrp div a{
+        color: black !important;
+    }
+
+
+    #masternav {
+        position: absolute;
+    }
+
+    #undercarousel {
+        display: none;
+    }
+
+    #spotlight {
+        display: none !important;
+    }
+
+    #slider {
+        border-bottom: none 0 !important;
+    }
+
+    #searchsection div {
+        margin: 2px -71% !important;
+    }
+
+    #searchsection div button {
+        margin-top: -2px !important;
+    }
+
+    #btnrel {
+        width: 4rem !important;
+        height: 4rem !important;
+    }
+    #lnews button{
+        font-size: 12px;
+        width: 4rem !important;
+        height: 4rem !important;
+    }
+}
+@media screen and (max-width: 1290px) {
+    #rightaks2{
+        width: 21rem;
+    }
+}
+@media screen and (max-width: 1086px) {
+    #rightaks2{
+        width: 17rem;
+    }
+}
+@media screen and (max-width: 837px) {
+    #rightaks2{
+        width: 15rem;
+    }
+
+}
+@media only screen and (max-width: 992px) {
+    .logo-container a{
+        font-size: 28px !important;
+    }
+    #searchsectionfornotmobile{
+        display: none !important;
+    }
+    #moreinfo div .mg1{
+        padding: 50px !important;
+        margin-bottom: 10px;
+    }
+    #moreinfo div .mg2{
+        margin-top: 13.5rem;
+        padding: 50px !important;
+    }
+    #moreinfo div .c1{
+        width: 27rem !important;
+    }
+}
+@media screen and (min-width: 768px) {
+  #masternav .dropdown:hover > .dropdown-menu :not(#sub-dropdown-menu){
+        display: block !important;
+    }
+    #logosec label{
+        margin-right: 1.5rem!important;
+    }
+   #masternav .dropdown > .dropdown-menu {
+        transition: all 0.5s ease;
+        overflow: hidden;
+        transform-origin: top center;
+        transform: rotateX(80deg);
+        opacity: 0;
+        display: block;
+    }
+
+   #masternav .dropdown:hover > .dropdown-menu {
+        transform: scale(1);
+        opacity: 100%;
+    }
+    body #masternav .dropdown-menu a {
+        font-size: 14px;
+        color: gray !important;
+    }
+   #masternav .dropdown-item:hover:not(#srch){
+       font-size: 15px!important;
+        background-color: #ffc107;
+        color: white !important;
+    }
+   #masternav .dropdown-item:not(#srch){
+        transition: font-size 0.4s ease;
+    }
+    #masternav {
+        padding-left: 7rem;
+        padding-right: 5rem;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .testimonial-slider.owl-carousel .owl-nav button {
+        left: -150px;
+    }
+    .testimonial-slider.owl-carousel .owl-nav button.owl-next {
+        right: -150px;
+    }
+    .hp-room-items .hp-room-item .hr-text {
+        bottom: -322px;
+    }
+    .hp-room-items .hp-room-item:hover .hr-text {
+        bottom: 80px;
+    }
+}
+@media (max-width: 979px) {
+    main.bgscrolling {
+        background-size: auto 100% !important;
+    }
+}

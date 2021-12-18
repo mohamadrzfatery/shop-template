@@ -1,0 +1,386 @@
+@font-face {
+    font-family: 'iransans';
+    font-style: normal;
+    font-weight: 300;
+    src:url('iransanse/iraniansans.eot');
+    src:url('iransanse/iraniansans.eot?#iefix') format('embedded-opentype'),
+    url(iransanse/IranianSans.woff) format('woff'),
+    url(iransanse/iraniansans.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'b-yekan';
+    font-style: normal;
+    font-weight: 300;
+    src:url('fonts/yekan.eot');
+    src:url('fonts/yekan.eot?#iefix') format('embedded-opentype'),
+    url(fonts/yekan.woff) format('woff'),
+    url(fonts/yekan.ttf) format('truetype');
+}
+.spancl{
+    position: absolute;
+    font-size: 5em;
+    top: -4rem;
+    right: 49px;
+}
+* , *:after ,*:before{
+    box-sizing: border-box;
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #373737;
+}
+::selection {
+    color: white;
+    background: #373737;
+}
+.carousel-inner{
+    width: 100% !important;
+    height: 100% !important;
+}
+#masternav{
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+
+}
+#btnrel{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition:  all 0.5s ease;
+    -o-transition:  all 0.5s ease;
+    width: 5rem;
+    height: 5rem;
+}
+#lnews{
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition:  all 0.5s linear;
+    -o-transition:  all 0.5s linear;
+}
+*{
+    font-family: b-yekan;
+}
+#spotlight .col-lg-6 img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+   transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition:  all 0.3s ease;
+    -o-transition: all 0.3s ease;
+
+}
+#spotlight .col-lg-6 img:hover{
+    transform:scale(1.1,1.1);
+    z-index: 1000;
+    position: inherit;
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+
+}
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateY(-1%);
+        -webkit-transform: translateY(-1%);
+        -moz-transform: translateY(-1%);
+        -o-transform: translateY(-1%);
+        -ms-transform: translateY(-1%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform:translateY(0);
+        -o-transform:translateY(0);
+        -ms-transform: translateY(0);
+        opacity: 100%;
+    }
+}
+
+body {
+    animation: 0.8s ease 0s slideInFromLeft;
+    -moz-animation: 0.8s ease 0s slideInFromLeft;
+    -webkit-animation: 0.8s ease 0s slideInFromLeft;
+    -o-animation: 0.8s ease 0s slideInFromLeft;
+}
+footer div img:not(#logo){
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    border: gray 3px solid;
+    width: 50px;
+}
+footer div img:hover:not(#logo){
+    opacity: 50%;
+}
+footer div .media-body:not(#end){
+    border-bottom: rgba(78,79,77,1) 2px solid;
+}
+footer h6{
+    font-size: 17px;
+    color: #ffc000;
+}
+#copyright a{
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    opacity: 100%;
+    color: #ffc000;
+
+}
+#copyright a:hover{
+
+    opacity: 50%;
+}
+#copyright1 a{
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    opacity: 100%;
+    color: #ffc000;
+}
+#copyright1 a:hover{
+
+    opacity: 50%;
+}
+footer li{
+    transition: color 0.2s ease;
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    border-bottom:#494848 1px solid;
+    font-size: 12px;
+}
+footer ul{
+    transition: color 0.2s ease;
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+}
+footer li:hover{
+    color: #ffc000;
+}
+.card{
+    color:black !important;
+}
+.testimonial-slider{
+    transition: all 0.5s;
+}
+#lnews .card img{
+    opacity: 90%;
+}
+#lnews .card:hover > img{
+    transition: all 0.5s;
+    opacity: 0;
+}
+#lnews .card:hover p{
+    color: white !important;
+}
+.card .card-header:hover p{
+    color: white !important;
+}
+#lnews .card:hover > .card-header{
+    color: white !important;
+}
+footer #usefullink a:hover{
+    color: white !important;
+}
+footer #usefullink a{
+    padding:8px 0;
+    display: block;
+}
+.dirrtl{
+    direction: rtl !important;
+    text-align: right !important;
+}
+footer .dirrtl button{
+    margin-bottom: 4px !important;
+    border-radius: 0;
+    font-size: 9px;
+}
+footer #logosec a{
+    transition: opacity 0.3s ease;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+}
+footer #logosec a:hover{
+    opacity: 70%;
+}
+/*assistant*/
+#assisatant{
+    display: flex;
+}
+#assisatant img{
+    flex: 1;
+    width: 300px;
+    height: auto;
+}
+/*assistant*/
+/*---- Testimonial Slider ----*/
+.testimonial-section {
+    background: #f9f9f9;
+}
+.testimonial-section .section-title {
+    margin-bottom: 30px;
+}
+.testimonial-section .owl-carousel .owl-item img{
+    width: auto;
+    margin: 0 auto;
+}
+.testimonial-slider.owl-carousel .owl-nav button {
+    height: 44px;
+    width: 44px;
+    border: 1px solid #ebebeb;
+    font-size: 24px;
+    color: #707079;
+    background: #ffffff;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    left: -190px;
+    top: 50%;
+    -webkit-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.testimonial-slider.owl-carousel .owl-nav button:hover {
+    border-color: #19191a;
+    color: #19191a;
+}
+.testimonial-slider.owl-carousel .owl-nav button.owl-next {
+    left: auto;
+    right: -190px;
+}
+.testimonial-slider .ts-item {
+    text-align: center;
+}
+.testimonial-slider .ts-item p {
+    font-size: 20px;
+    color: #707079;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.testimonial-slider .ts-item .ti-author {
+    margin-bottom: 60px;
+}
+.testimonial-slider .ts-item .ti-author .rating {
+    display: inline-block;
+}
+.testimonial-slider .ts-item .ti-author .rating i {
+    color: #f5b917;
+    font-size: 16px;
+}
+.testimonial-slider .ts-item .ti-author h5 {
+    font-size: 20px;
+    color: #19191a;
+    display: inline-block;
+}
+footer #productandservices a:hover{
+    color: white !important;
+}
+footer #productandservices a{
+    padding:8px 0;
+    display: block;
+}
+footer #usefullink a:hover{
+    color: white !important;
+}
+footer #usefullink a{
+    padding:8px 0;
+    display: block;
+}
+.dirrtl{
+    direction: rtl !important;
+    text-align: right !important;
+}
+footer .dirrtl button{
+    margin-bottom: 4px !important;
+    border-radius: 0;
+    font-size: 9px;
+}
+footer #logosec a{
+    transition: opacity 0.3s ease;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+}
+footer #logosec a:hover{
+    opacity: 70%;
+}
+footer #productandservices li{
+    margin-top: 15px!important;
+}
+.bgscrolingamlak:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.80);
+}
+a{
+    text-decoration: none !important;
+}
+.spad .container:after{
+    clear: both;
+}
+.spad .container:before{
+  content: "";
+    display: table;
+}
+#lnews .card{
+    margin-right: 5px !important;
+    opacity: 100%;
+    transition: opacity 0.5s ease;
+    -webkit-transition:opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+}
+.pp{
+    opacity: 0;
+    border-radius: 20px !important;
+    transform: translateY(100px);
+    transition: all 0.5s;
+}
+.card{
+    border-top: 1px solid rgba(255,255,255,0.5) !important;
+    border-left: 1px solid rgba(255,255,255,0.5) !important;
+    backdrop-filter: blur(5px);
+    height: 354px;
+}
+.card .card-body p{
+    text-align: center !important;
+}
+.card:hover .pp{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.5s;
+
+}
+.card .card-header img{
+    display: initial !important;
+}
+
+.owl-stage-outer{
+    padding: 1rem !important;
+    margin-right: -2rem !important;
+    background-color: transparent;
+}
+.end a{
+    margin: 0 6px;
+    font-size: clamp(15px,1.8vw,2em);
+    transition: opacity 0.3s ease-in-out;
+}
+.end a:hover{
+    transition: opacity 0.3s ease-in-out;
+    opacity: 50%;
+}
+
+
